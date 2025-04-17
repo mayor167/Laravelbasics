@@ -8,5 +8,9 @@ Route::get('/', function () {
 
 
 Route::get('/contact', function () {
-    return view('contact');
+    return "09063676340";
 });
+//named route
+Route::get('/test', function(){
+    return "This is a test page";
+})->name("testpage");
