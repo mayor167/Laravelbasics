@@ -11,3 +11,9 @@ export default defineConfig({
         tailwindcss(),
     ],
 });
+
+// // // **
+// // how to set up a test Server
+// npm install vite --save-dev
+// npx  vite 
+// // // **
